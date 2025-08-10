@@ -4,28 +4,8 @@ This project analyzes the relationship between cryptocurrency trader behavior an
 
 ---
 
-## 2. Repository Structure
 
-The project is organized into the following directory structure as per the submission guidelines:
-
-ds_anshul
-│
-├── notebook_1.ipynb            # Main Google Colab notebook with all Python code.
-├── ds_report.pdf               # Final report summarizing analysis and insights.
-├── README.md                   # This file.
-│
-├── csv_files/
-│   ├── historical_data.csv     # Raw trader data from Hyperliquid.
-│   └── fear_greed_index.csv    # Historical Fear & Greed Index data.
-│
-└── outputs/
-├── volume_vs_sentiment.png # Chart: Total trading volume vs. sentiment.
-├── pnl_vs_sentiment.png    # Chart: Average PnL vs. sentiment.
-├── risk_vs_sentiment.png   # Chart: PnL volatility (risk) vs. sentiment.
-└── behavior_vs_sentiment.png # Chart: Trader positioning (long/short) vs. sentiment.
-
-
-## 3. How to Run
+## 2. How to Run
 
 To replicate the analysis, please follow these steps:
 
@@ -46,7 +26,7 @@ To replicate the analysis, please follow these steps:
 
 ---
 
-## 4. Summary of Findings
+## 3. Summary of Findings
 
 The analysis revealed several key correlations between trader actions and market sentiment:
 
@@ -56,3 +36,4 @@ The analysis revealed several key correlations between trader actions and market
 * **Behavior is Reactionary**: Traders tend to open more long (buy) positions during `Greed` and more short (sell) positions during `Fear`, suggesting a strong trend-following instinct.
 
 For a complete discussion of these findings and their strategic implications, please see the `ds_report.pdf`.
+
